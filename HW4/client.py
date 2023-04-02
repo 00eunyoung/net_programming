@@ -6,6 +6,7 @@ while True:
     msg = input('수식을 입력하세요: ')
     if msg == 'q':
         break
+    
     s.send(msg.encode())
     print('Received message:', s.recv(1024).decode())
 s.close()

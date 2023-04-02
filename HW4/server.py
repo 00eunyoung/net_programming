@@ -23,6 +23,7 @@ while True:
         num1, num2 = data.split(op) 
         num1 = num1.strip()
         num2 = num2.strip()
+        
         if op == '+':
             result = int(num1)+int(num2)
         elif op == '-':
